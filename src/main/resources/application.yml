@@ -1,0 +1,28 @@
+server:
+  port: 9092
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/Digi
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: akumar69141@gmail.com
+    password: qwpl imob snua iqcf
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+     
+      
